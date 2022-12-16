@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body{
+  background-color: #F9D9AA;
+}
+/* backgroundDeisgn */
+.bgDesign{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+  z-index: -99;
+}
+.bgImage2{
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  width: 30%;
+}
+/* backgroundDesign */
+/* headerContent */
+header{
+  padding: 20px 30px;
+}
+header p{
+  font-size: 20px;
+  font-weight: bold;
+  color: #2F2105;
+}
+/* headerContent */
+/* contentSection */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.congrats{
+  font-size: 120px;
+  font-weight: bold;
+  color: #2F2105;
+}
+.selections{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-top: 50px;
+}
+.selections a{
+  text-decoration: none;
+  color: white;
+  padding: 1rem 2rem;
+  background-color: #2F2105;
+  border-radius: 50px;
+  font-size: 25px;
+}
+/* contentSection */

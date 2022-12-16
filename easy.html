@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Maze Game</title>
+    <link rel="stylesheet" href="css/game.css" />
+  </head>
+  <body>
+    <!-- backgroundDesign -->
+    <div class="bgDesign">
+      <svg class="bgImage1" viewBox="0 0 1440 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M547.831 104.403C400.27 -13.2506 120.46 55.3806 -1 104.403V213H1453V141.671C1424.18 170.657 1366.55 197.051 1366.55 70.7419C1366.55 -55.5674 1171.88 18.113 1074.55 70.7419C960.459 130.985 695.392 222.056 547.831 104.403Z" fill="#2F2105" stroke="#2F2105" />
+      </svg>
+    </div>
+    <!-- backgroundDesign -->
+    <!-- headerContent -->
+    <header>
+      <p>The Maze Game - Easy Mode</p>
+      <a href="startingPage.html"><p>Exit</p>
+        <svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M17.7415 3.17622C18.5253 2.94108 19.3533 2.89244 20.1593 3.03418C20.9653 3.17592 21.727 3.50411 22.3836 3.99256C23.0402 4.48102 23.5735 5.1162 23.941 5.84741C24.3084 6.57863 24.4999 7.38562 24.5 8.20397V33.796C24.4999 34.6143 24.3084 35.4213 23.941 36.1525C23.5735 36.8837 23.0402 37.5189 22.3836 38.0074C21.727 38.4958 20.9653 38.824 20.1593 38.9658C19.3533 39.1075 18.5253 39.0589 17.7415 38.8237L7.2415 35.6737C6.16018 35.3493 5.21222 34.685 4.53824 33.7794C3.86427 32.8737 3.50019 31.7749 3.5 30.646V11.354C3.50019 10.225 3.86427 9.12624 4.53824 8.22057C5.21222 7.3149 6.16018 6.6506 7.2415 6.32622L17.7415 3.17622V3.17622ZM26.25 6.99997C26.25 6.53584 26.4344 6.09073 26.7626 5.76254C27.0908 5.43435 27.5359 5.24997 28 5.24997H33.25C34.6424 5.24997 35.9777 5.8031 36.9623 6.78766C37.9469 7.77223 38.5 9.10759 38.5 10.5V12.25C38.5 12.7141 38.3156 13.1592 37.9874 13.4874C37.6592 13.8156 37.2141 14 36.75 14C36.2859 14 35.8408 13.8156 35.5126 13.4874C35.1844 13.1592 35 12.7141 35 12.25V10.5C35 10.0358 34.8156 9.59073 34.4874 9.26254C34.1592 8.93435 33.7141 8.74997 33.25 8.74997H28C27.5359 8.74997 27.0908 8.5656 26.7626 8.23741C26.4344 7.90922 26.25 7.4641 26.25 6.99997ZM36.75 28C37.2141 28 37.6592 28.1843 37.9874 28.5125C38.3156 28.8407 38.5 29.2858 38.5 29.75V31.5C38.5 32.8924 37.9469 34.2277 36.9623 35.2123C35.9777 36.1969 34.6424 36.75 33.25 36.75H28C27.5359 36.75 27.0908 36.5656 26.7626 36.2374C26.4344 35.9092 26.25 35.4641 26.25 35C26.25 34.5358 26.4344 34.0907 26.7626 33.7625C27.0908 33.4343 27.5359 33.25 28 33.25H33.25C33.7141 33.25 34.1592 33.0656 34.4874 32.7374C34.8156 32.4092 35 31.9641 35 31.5V29.75C35 29.2858 35.1844 28.8407 35.5126 28.5125C35.8408 28.1843 36.2859 28 36.75 28ZM15.75 19.25C15.2859 19.25 14.8408 19.4343 14.5126 19.7625C14.1844 20.0907 14 20.5358 14 21C14 21.4641 14.1844 21.9092 14.5126 22.2374C14.8408 22.5656 15.2859 22.75 15.75 22.75H15.7518C16.2159 22.75 16.661 22.5656 16.9892 22.2374C17.3174 21.9092 17.5018 21.4641 17.5018 21C17.5018 20.5358 17.3174 20.0907 16.9892 19.7625C16.661 19.4343 16.2159 19.25 15.7518 19.25H15.75Z"
+            fill="black"
+          />
+          <path d="M28 21H36.75M36.75 21L33.25 17.5M36.75 21L33.25 24.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+    </header>
+    <!-- headerContent -->
+    <!-- content -->
+    <div class="content">
+      <div class="legends">
+        <p class="bigText">Legend:</p>
+        <ul>
+          <li>
+            <svg width="20px" height="20px" class="char"></svg>
+            <p class="text">Character</p>
+          </li>
+          <li>
+            <svg width="20px" height="20px" class="fin"></svg>
+            <p class="text">FinishLine</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="bigText">Move:</p>
+        <div class="key">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 10V18M24 24H4V44H24V24ZM24 24V44V24ZM24 24H44V44H24V24ZM14 4H34V24H14V4Z" stroke="#2F2105" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M20 14L24 10L28 14M10 34H18M14 38L10 34L14 30M38 34H30M34 30L38 34L34 38" stroke="#2F2105" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <p>ArrowKey</p>
+        </div>
+      </div>
+    </div>
+    <!-- content -->
+    <!-- theGame -->
+    <div class="container">
+      <svg width="500px" height="500px" class="area">
+        <rect id="finish" x="470" y="470" width="20" height="20" fill="red" />
+        <rect id="character" x="10" y="10" width="20" height="20" fill="black" rx="10" />
+        <rect id="wall1" x="120" y="0" width="10" height="300" fill="black" />
+        <rect id="wall2" x="300" y="100" width="10" height="400" fill="black" />
+      </svg>
+    </div>
+    <!-- theGame -->
+    <script src="js/easyMove.js"></script>
+  </body>
+</html>

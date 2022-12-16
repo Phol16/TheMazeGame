@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body{
+  background-color: #F9D9AA;
+}
+/* backgroundDesign */
+.bgDesign{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+  z-index: -99;
+}
+.bgImage2{
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  width: 30%;
+}
+/* backgroundDesign */
+/* headerContent */
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+header p{
+  font-size: 20px;
+  font-weight: bold;
+  color: #2F2105;
+}
+header svg{
+  width: 20px;
+}
+header a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+header a p{
+  font-size: 15px;
+}
+/* headerContent */
+/* theGame */
+.container{
+  display: flex;
+  margin: 3rem auto;
+  height: 550px;
+  width: 800px;
+  border-radius: 50px;
+  background-color: #2F2105;
+}
+.area{
+  margin: auto;
+  background-color: #F9D9AA;
+  border-radius: 5px;
+}
+/* theGame */
+/* content */
+.char{
+  background-color: black;
+  border-radius: 50px;
+}
+.fin{
+  background-color: red;
+}
+.content{
+  opacity: 0.8;
+  position: absolute;
+  top: 200px;
+  right: 200px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: 15rem;
+  border: #2F2105 solid;
+  border-radius: 50px;
+  padding: 2rem;
+}
+.legends{
+  display: flex;
+  flex-direction: column;
+}
+.bigText{
+  font-size: 25px;
+  color: #2F2105;
+  font-weight: bold;
+}
+.text{
+  font-size: 15px;
+}
+li{
+  display: flex;
+  justify-content: space-between;
+  width: 7rem;
+}
+.key{
+  display: flex;
+  align-items: center;
+}
+/* content */
+
