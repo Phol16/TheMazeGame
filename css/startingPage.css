@@ -10,7 +10,7 @@ body{
 /* backgroundDesign */
 .bgDesign{
   position: absolute;
-  height: 100vh;
+  bottom: 0;
   width: 100vw;
   display: flex;
   align-items: flex-end;
@@ -55,4 +55,10 @@ body{
   border-radius: 50px;
 }
 /* content */
-
+@media (max-width: 860px){
+  .title{font-size: 50px;}
+  .bgImage2{display: none;}
+}
+@media  (max-width: 425px){
+  .title{font-size: 30px;}
+}

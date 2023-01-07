@@ -1,22 +1,22 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: cursive;
 }
-body{
-  background-color: #F9D9AA;
+body {
+  background-color: #f9d9aa;
 }
 /* backgroundDesign */
-.bgDesign{
+.bgDesign {
   position: absolute;
-  height: 100vh;
+  bottom: 0;
   width: 100vw;
   display: flex;
   align-items: flex-end;
   z-index: -99;
 }
-.bgImage2{
+.bgImage2 {
   position: absolute;
   right: 50px;
   bottom: 50px;
@@ -24,56 +24,56 @@ body{
 }
 /* backgroundDesign */
 /* headerContent */
-header{
+header {
   display: flex;
   justify-content: space-between;
   padding: 20px 30px;
 }
-header p{
+header p {
   font-size: 20px;
   font-weight: bold;
-  color: #2F2105;
+  color: #2f2105;
 }
-header svg{
+header svg {
   width: 20px;
 }
-header a{
+header a {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
-header a p{
+header a p {
   font-size: 15px;
 }
 /* headerContent */
 /* contentSection */
-.content{
+.content {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 70%;
   margin: 50px auto;
 }
-.contentText{
-  background-color: #2F2105;
+.contentText {
+  background-color: #2f2105;
   color: white;
   padding: 30px;
-  font-size: 30px;
-  width: 20%;
+  font-size: x-large;
+  width: 300px;
   border-radius: 50px;
 }
-.selection{
+.selection {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
 }
-.selectionText{
+.selectionText {
   font-size: 30px;
   font-weight: bold;
-  color: #2F2105;
+  color: #2f2105;
   padding: 1rem;
 }
-.selectionList{
+.selectionList {
   cursor: pointer;
   list-style: none;
   display: block;
@@ -85,25 +85,49 @@ header a p{
   padding: 5px 10px;
   text-align: center;
 }
-#easy{
-  background-color: #2F2105;
+#easy {
+  background-color: #2f2105;
   color: white;
 }
 /* contentSection */
 /* startButton */
-.startContainer{
+.startContainer {
   display: flex;
   justify-content: center;
 }
-.start{
+.start {
   color: white;
   text-decoration: none;
-  background-color: #2F2105;
+  background-color: #2f2105;
   width: fit-content;
   font-size: 30px;
   padding: 0.5rem 2rem;
   border-radius: 50px;
 }
 /* startButton */
-
-
+@media screen and (max-width: 1800px) {
+  .contentText {
+    font-size: larger;
+  }
+  .bgDesign{
+    display: none;
+  }
+}
+@media screen and (max-width: 850px) {
+  .contentText {
+    font-size: medium;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .content {
+    display: flex;
+    flex-flow: column;
+  }
+  .contentText{
+    width: 250px;
+  }
+  .bgImage2{
+    display: none;
+  }
+}

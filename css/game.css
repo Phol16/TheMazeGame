@@ -73,7 +73,7 @@ header a p{
   opacity: 0.8;
   position: absolute;
   top: 200px;
-  right: 200px;
+  right: 100px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
@@ -105,3 +105,29 @@ li{
 }
 /* content */
 
+@media screen and (max-width: 1440px){
+  .bgDesign{display: none;}
+}
+@media screen and (max-width: 1390px){
+  .content{
+    right: 50px;
+  }
+}
+@media screen and (max-width: 1290px){
+  .content{
+    right: 10px;
+  }
+}
+@media screen and (max-width: 1220px){
+  .mainContent{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .content{
+    position: relative;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+}
